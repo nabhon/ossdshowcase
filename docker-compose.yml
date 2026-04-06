@@ -1,0 +1,7 @@
+services:
+  ossdshowcase:
+    build: .
+    container_name: ossdshowcase
+    ports:
+      - "9001:80"
+    restart: unless-stopped
